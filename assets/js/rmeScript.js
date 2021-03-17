@@ -42,7 +42,7 @@ function navFunction() {
 
 function scrollto(div) {
   $('html,body').animate({
-     scrollTop: $("#"+div).offset().top-120
+     scrollTop: $("#"+div).offset().top-93
    },
    'slow'
   );
